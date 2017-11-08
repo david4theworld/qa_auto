@@ -1,7 +1,3 @@
-/*
-A month or so ago, I have switched to Linux and started getting to know Bash and play around with SQL and basics of Java. I have never done anything in JS or Node, and the QA testing I've been doing has been strictly blackbox end-user testing. I am am writing this script using only what I've read in the examples used by the test author and a few tutorials I've read during the weekend. So, here goes my novice take on this...
-*/
-
 const app = require('../app');
 
 const supertest = require('supertest');
@@ -123,9 +119,3 @@ describe('The API calls should:', () => {
 		catch(done);
 	});
 });
-
-/* I had so much fun making this! I know it can be far more precise, and incorporate many other testing modules, but I sincerely hope it will be enough to show my effort and potential, rewarding me with the interview :)
-
-Kind regards,
-David
-*/
